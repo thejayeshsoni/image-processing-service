@@ -100,10 +100,14 @@ This project is an **Image Processing System** that asynchronously compresses im
    3,img2,"https://images.pexels.com/photos/3536991/pexels-photo-3536991.jpeg?auto=compress&cs=tinysrgb&w=600,https://images.pexels.com/photos/3445219/pexels-photo-3445219.jpeg?auto=compress&cs=tinysrgb&w=600"
    ```
 
+   <img width="1019" alt="upload-api-screenshot" src="https://github.com/user-attachments/assets/001c1b02-1c5a-464f-917f-6077902668ae">
+
 2. Check Processing Status
    - URL: /check-status/:id
    - Method: GET
    - Description: Check the status of the image compression for a specific request ID. The status could be Pending, In Progress, or Completed. The response also includes the compressed image URLs once processing is complete.
+
+   <img width="1007" alt="status-api" src="https://github.com/user-attachments/assets/cce8d7b2-97ea-48e5-844e-32dda50a8598">
 
 # Technologies Used
 
